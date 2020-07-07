@@ -1,0 +1,31 @@
+{
+  "name": "webhooks",
+  "version": "1.0.0",
+  "description": "hooks 自动打包部署",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chalk": "^4.0.0",
+    "consola": "^2.12.2",
+    "dayjs": "^1.8.29",
+    "express": "^4.17.1",
+    "fs-extra": "^9.0.0",
+    "ora": "^4.0.4",
+    "single-line-log": "^1.1.2"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest test/"
+  },
+  "keywords": [
+    "webhooks"
+  ],
+  "author": "chenhao2009_219@126.com",
+  "license": "MIT"
+}
